@@ -33,7 +33,7 @@ body{
 
 }
 #bg-image{
-    background-image: url(/images/book-form-bg.png);
+    background-image: url(../images/book-form-bg.png);
     background-repeat: no-repeat;
    
     
@@ -191,31 +191,31 @@ body{
     /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452) ; */
 }
 #image-1{
-    background-image: url(/images/services\ card.png);
+    background-image: url(../images/services\ card.png);
     background-size: cover;
  
     background-repeat: no-repeat;
 }
 #image-2{
-    background-image: url(/images/image\ 2.jpg);
+    background-image: url(../images/image\ 2.jpg);
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
 }
 #image-3{
-    background-image: url(/images/image\ 3.jpg);
+    background-image: url(../images/image\ 3.jpg);
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
 }
 #image-4{
-    background-image: url(/images/image\ 4.jpg);
+    background-image: url(../images/image\ 4.jpg);
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
 }
 #image-5{
-    background-image: url(/images/image\ 5.jpg);
+    background-image: url(../images/image\ 5.jpg);
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -239,7 +239,7 @@ background-color: transparent;
 box-shadow: none;
 }
 #footer{
-    background-image: url(/images/footer.webp);
+    background-image: url(../images/footer.webp);
     background-size: cover;
     background-position:center;
     width: 100vw;
@@ -247,7 +247,7 @@ box-shadow: none;
     color: white;
 }
 .accordion-item button, .accordion-body{
-    background-image: url(/images/footer.webp);
+    background-image: url(../images/footer.webp);
     background-position: -50px;
     color: white;
 }
@@ -322,6 +322,7 @@ z-index: 1;
   }
   .btn-1:hover{
     background-color:#f86202 !important;
+    transition: 0.3s ease-out !important;
   }
   .carousel-caption p{
     display: none;
@@ -329,10 +330,12 @@ z-index: 1;
   .card-hover-sec:hover p{
 
     display: block !important;
-    animation: revealtext 0.3s ease-out ;
+ 
     font-weight: bold;
    
+   
   }
+  
   @media only screen and (min-width:992px) and (max-width:1200px){
   #head{
     line-height: 30px !important;
@@ -407,7 +410,7 @@ z-index: 1;
     justify-content: space-between;
 } */
 #footer-lg{
-    background-image: url(/images/footer.webp);
+    background-image: url(../images/footer.webp);
     background-position: -10px 10px ;
    
 }
@@ -460,7 +463,7 @@ text-decoration: underline !important;
 margin-top: 10px;
 }
 #home-bg-img{
-    background-image: url(/images/home\ bg.png);
+    background-image: url(../images/home\ bg.png);
   filter: brightness(106%);
 }
 #nav-link{
